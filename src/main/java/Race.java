@@ -24,6 +24,12 @@ public class Race {
         Elephant dudu = new Elephant(40,20, "Дуду");
         dudu.run(track1);
         dudu.jump(wall1);
+        //bonus
+        Elephant dudu2 = new Elephant(40,20, "Дуду");
+        dudu2.run(track1);
+        dudu2.jump(wall1);
+
+        //end bonus
 
         Athlete[] athletes = {boris, gulfik, pauk, term1, term2, term3, kolya, vasya, bolt};
         Obstacle[] obstacles = {wall1, wall2, wall3, track1, track2, track3};
